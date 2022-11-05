@@ -1,0 +1,11 @@
+framework module DesertBuildingFramework {
+  umbrella header "DesertBuildingFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DesertBuildingFramework.Swift {
+    header "DesertBuildingFramework-Swift.h"
+    requires objc
+}
